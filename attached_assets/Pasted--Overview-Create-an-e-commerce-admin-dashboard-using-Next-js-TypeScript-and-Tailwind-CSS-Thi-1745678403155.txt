@@ -1,0 +1,70 @@
+## Overview
+
+Create an e-commerce admin dashboard using Next.js, TypeScript, and Tailwind CSS. This assignment will test your ability to build a functional and visually appealing frontend application while implementing authentication and data management.
+
+## Requirements
+
+### Tech Stack
+
+- Next.js 15 (App Router)
+- TypeScript
+- Tailwind CSS
+- Tanstack Query (recommended for data fetching)
+
+### Features
+
+### Dashboard Layout
+
+- Create a responsive dashboard layout with:
+    - Sidebar navigation
+    - Header with user info and logout option
+    - Main content area
+
+### Products Management
+
+- Fetch and display products from the Fake Store API (https://fakestoreapi.com/)
+- Display products in a grid/table format with:
+    - Product image
+    - Title
+    - Price
+    - Category
+    - Rating
+    - Stock status (you can simulate this)
+
+### Filtering System
+
+Implement the following filters:
+
+- Price range (min/max slider)
+- Category filter (dropdown or checkbox)
+- Rating filter (star rating selector)
+- Search by product name
+
+### Additional Features
+
+Candidates should implement these features in order of priority:
+
+1. Product detail view when clicking on a product
+2. Pagination or infinite scroll for product list
+3. Dark/light mode toggle
+4. Simple analytics or statistics at the top of the dashboard (total products, average price, etc.)
+5. Mock functionality to add/edit/delete products (changes don't need to persist)
+
+### API Integration
+
+Use the Fake Store API for product data:
+
+- Product list: `https://fakestoreapi.com/products`
+- Single product: `https://fakestoreapi.com/products/{id}`
+- Categories: `https://fakestoreapi.com/products/categories`
+- Filter by category: `https://fakestoreapi.com/products/category/{category_name}`
+
+## Evaluation Criteria
+
+- Code quality and folder organization
+- UI/UX design and implementation
+- TypeScript usage (proper typing)
+- Component reusability
+- Responsive design implementation
+- Filter functionality
+- Error handling
